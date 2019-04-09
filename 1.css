@@ -1,0 +1,65 @@
+@charset "utf-8";
+html {
+	background-image: url(fon4.jpg);
+	min-height: 100%;
+	font-family: sans-serif;
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: column;
+}
+button {
+		  padding: 10px 0;
+		  border-width: 1;
+		  display: block;
+		  width: 120px;
+		  border-radius: 12px;  
+		  align-items: center;
+		  //text-transform: uppercase}
+body {
+	margin: 0;
+	padding: 15px;
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: column;
+	flex: auto;
+	margin: 0
+}
+
+.box {
+	width: 100%;
+	max-width: 100%;
+	margin: 0 auto;
+	display: -webkit-flex;
+	display: flex;
+	flex-wrap: wrap;
+}
+.box-base {
+	background: white;
+	height: 500px;
+	width: 40%;
+	color: black;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+}
+.box-side {
+	padding: 20px;
+	background: white;
+	display: -webkit-flex;
+	display: flex;
+	height: 460px;
+	flex-direction: row;
+	
+  /* margin: 2%; /* Отступы вокруг элемента */
+    
+  /*  padding: 50px; /* Поля вокруг текста */
+   /* border: 3px solid #666;*/
+   } 
+*   .child {
+    border: 3px solid #666; 
+    padding: 20px;  
+    margin: 20px;  
+}
+
